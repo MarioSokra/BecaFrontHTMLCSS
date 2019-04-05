@@ -1,0 +1,22 @@
+nav a{
+    text-decoration: underline;            
+    padding: 8px;
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+article:nth-of-type(odd){
+    background-color: grey;
+}
+article p::first-line{
+    font-weight: bold;
+}
+article p::first-letter{
+    font-size:35px; 
+}
+
+article:target{
+    background-color: red;
+    border: 7px double black;
+}
