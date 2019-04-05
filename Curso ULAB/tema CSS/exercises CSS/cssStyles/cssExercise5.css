@@ -14,6 +14,7 @@ article p::first-line{
 }
 article p::first-letter{
     font-size:35px; 
+    text-transform: uppercase;
 }
 article:target{
     background-color: red;
