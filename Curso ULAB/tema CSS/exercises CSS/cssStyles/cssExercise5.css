@@ -14,8 +14,13 @@ article p::first-line{
 }
 article p::first-letter{
     font-size:35px; 
+<<<<<<< HEAD
     text-transform: uppercase;
 }
+=======
+}
+
+>>>>>>> developer
 article:target{
     background-color: red;
     border: 7px double black;
