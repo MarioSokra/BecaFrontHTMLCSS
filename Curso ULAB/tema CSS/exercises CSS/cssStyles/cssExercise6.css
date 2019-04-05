@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin:  0;
+}
+#container1{
+    display: flex;  
+    flex-direction: column;
+}
+#container2{
+    display: flex;  
+    flex-direction: row;
+    width:100%;
+    height: 80vh;
+}
+main {
+    background-color: lightseagreen;
+    flex-grow: 1;
+  }
+  header {
+    background-color: lightcoral;
+    height: 10vh;
+  }
+  nav {
+    background-color: lightgreen;
+    width:150px;
+  }
+  aside {
+    background-color: red;
+    width:150px;
+  }
+  footer {
+    background-color: lightpink;
+    height: 10vh;
+  }
+  @media (max-width:768px){
+    #container2{
+        display: flex;  
+        flex-direction: column;
+        
+    }
+    nav, aside{
+        height: 5vh;
+        width: 100vw;
+    }
+    main{
+        height: 80vh;
+        width: 100vw;
+    }
+
+  }
