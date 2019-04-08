@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../Styles/login.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/common.css">
 </head>
 
 <body>
@@ -17,13 +17,27 @@
 
     </header>
     <main>
-        <form method=“POST”>
-            <input type=“text” placeholder=“USER” maxlength="20" />
-            <input type="password" name="PASSWORD" placeholder="Password" maxlength="20">
-            <button type="submit"><a href="../index.html" /> Submit</button>
+        <form action="../index.html" method=“POST”>
+            <p>
+                <label>
+                    <input type=“text” placeholder=“USER” maxlength="20" required/>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="password" name="PASSWORD" placeholder="Password" maxlength="20" required>
+                </label>
+            </p>
+            <p>
+                <button type="submit"> Submit</button>
+            </p>
+
+
         </form>
     </main>
-
+    <footer>
+        <p>Mario Moya Antón</p>
+    </footer>
 </body>
 
 </html>

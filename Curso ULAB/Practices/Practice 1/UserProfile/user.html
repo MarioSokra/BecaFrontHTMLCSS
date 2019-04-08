@@ -6,33 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>User Profile</title>
-    <link rel="stylesheet" type="text/css" href="../Styles/user.css">
-    </head>
-    
-    <body>
-        <header>
-            <a href="../index.html"><img src="../Styles/logoblog-280x224.png"></a>
-            <h1>My big blog</h1>
-    
-        </header>
-        <main>
-        <img src="../Styles/profile-800.jpg">
-        <p>Mario Moya Antón</p>
-        <p>06/Julio/1994</p>
-        <p>España</p>
-        <p>Posts creados: 4</p>
-        <div id="post-1">
+    <link rel="stylesheet" type="text/css" href="../Styles/common.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="../Styles/logoblog-280x224.png"></a>
+        <h1 id="blogTitle">My big blog</h1>
+        <a href="user.html"><img id="userImage" src="../Styles/profile-180.jpg"></a>
+    </header>
+    <main>
+        <div id="personalInformation">
+            <img id="userImageFullSize" src="../Styles/profile-800.jpg">
+            <div id="personalData">
+                <p id="userName">Mario Moya Antón</p>
+                <p id="userBirthDate">06/Julio/1994</p>
+                <p id="country">España</p>
+                <p id="numberPost">Posts creados: 4</p>
+            </div>
+        </div>
+
+        <div class="post" id="post-1">
             <h3>Post Title</h3>
-            <img src="../Styles/profile-180.jpg">
-            <p>by User</p>
-            <p>fecha</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis fusce
+            <img id="userImage" src="../Styles/profile-180.jpg">
+            <p id="byUser">by User</p>
+            <p id="datePost">fecha</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis
+                fusce
                 proin
-                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum nullam
+                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum
+                nullam
                 lacus
-                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius tempor
+                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius
+                tempor
                 blandit
-                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris lectus
+                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris
+                lectus
                 et auctor
                 bibendum, a mattis augue commodo eros pharetra aptent habitasse morbi sapien, sociis parturient
                 consequat cras
@@ -40,21 +49,26 @@
                 potenti
                 habitasse, dapibus interdum ligula viverra placerat.
 
-                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula non
+                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula
+                non
                 dictumst, urna praesent congue semper justo aptent. Per varius luctus habitant vitae cursus odio
                 bibendum
-                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum ante
+                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum
+                ante
                 duis
-                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula taciti, et
+                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula
+                taciti, et
                 arcu
                 ridiculus ad habitasse ultricies sollicitudin a blandit, commodo cum pretium penatibus velit netus
                 platea.
 
-                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin leo,
+                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin
+                leo,
                 viverra
                 duis habitant in dui ullamcorper auctor litora luctus tristique. Ullamcorper ac ante est imperdiet
                 facilisis vel
-                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum venenatis
+                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum
+                venenatis
                 dictum,
                 quis sociis magnis proin massa justo platea feugiat blandit. Cursus suscipit nec tempor penatibus
                 convallis
@@ -62,7 +76,8 @@
                 sociosqu
                 placerat platea.
 
-                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna dis
+                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna
+                dis
                 tempus
                 velit, elementum nunc eleifend consequat platea habitant erat hendrerit nullam justo est dictum
                 condimentum
@@ -70,22 +85,27 @@
                 inceptos
                 varius, torquent dictumst lobortis porta. Lacinia congue hendrerit volutpat rhoncus imperdiet rutrum
                 quam
-                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis viverra
+                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis
+                viverra
                 nisi
                 justo est arcu.</p>
         </div>
-        <div id="post-2">
+        <div class="post" id="post-2">
             <h3>Post Title</h3>
-            <img src="../Styles/profile-180.jpg">
-            <p>by User</p>
-            <p>fecha</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis fusce
+            <img id="userImage" src="../Styles/profile-180.jpg">
+            <p id="byUser">by User</p>
+            <p id="datePost">fecha</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis
+                fusce
                 proin
-                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum nullam
+                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum
+                nullam
                 lacus
-                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius tempor
+                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius
+                tempor
                 blandit
-                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris lectus
+                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris
+                lectus
                 et auctor
                 bibendum, a mattis augue commodo eros pharetra aptent habitasse morbi sapien, sociis parturient
                 consequat cras
@@ -93,21 +113,26 @@
                 potenti
                 habitasse, dapibus interdum ligula viverra placerat.
 
-                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula non
+                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula
+                non
                 dictumst, urna praesent congue semper justo aptent. Per varius luctus habitant vitae cursus odio
                 bibendum
-                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum ante
+                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum
+                ante
                 duis
-                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula taciti, et
+                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula
+                taciti, et
                 arcu
                 ridiculus ad habitasse ultricies sollicitudin a blandit, commodo cum pretium penatibus velit netus
                 platea.
 
-                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin leo,
+                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin
+                leo,
                 viverra
                 duis habitant in dui ullamcorper auctor litora luctus tristique. Ullamcorper ac ante est imperdiet
                 facilisis vel
-                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum venenatis
+                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum
+                venenatis
                 dictum,
                 quis sociis magnis proin massa justo platea feugiat blandit. Cursus suscipit nec tempor penatibus
                 convallis
@@ -115,7 +140,8 @@
                 sociosqu
                 placerat platea.
 
-                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna dis
+                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna
+                dis
                 tempus
                 velit, elementum nunc eleifend consequat platea habitant erat hendrerit nullam justo est dictum
                 condimentum
@@ -123,22 +149,27 @@
                 inceptos
                 varius, torquent dictumst lobortis porta. Lacinia congue hendrerit volutpat rhoncus imperdiet rutrum
                 quam
-                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis viverra
+                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis
+                viverra
                 nisi
                 justo est arcu.</p>
         </div>
-        <div id="post-3">
+        <div class="post" id="post-3">
             <h3>Post Title</h3>
-            <img src="../Styles/profile-180.jpg">
-            <p>by User</p>
-            <p>fecha</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis fusce
+            <img id="userImage" src="../Styles/profile-180.jpg">
+            <p id="byUser">by User</p>
+            <p id="datePost">fecha</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis
+                fusce
                 proin
-                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum nullam
+                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum
+                nullam
                 lacus
-                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius tempor
+                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius
+                tempor
                 blandit
-                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris lectus
+                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris
+                lectus
                 et auctor
                 bibendum, a mattis augue commodo eros pharetra aptent habitasse morbi sapien, sociis parturient
                 consequat cras
@@ -146,21 +177,26 @@
                 potenti
                 habitasse, dapibus interdum ligula viverra placerat.
 
-                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula non
+                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula
+                non
                 dictumst, urna praesent congue semper justo aptent. Per varius luctus habitant vitae cursus odio
                 bibendum
-                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum ante
+                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum
+                ante
                 duis
-                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula taciti, et
+                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula
+                taciti, et
                 arcu
                 ridiculus ad habitasse ultricies sollicitudin a blandit, commodo cum pretium penatibus velit netus
                 platea.
 
-                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin leo,
+                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin
+                leo,
                 viverra
                 duis habitant in dui ullamcorper auctor litora luctus tristique. Ullamcorper ac ante est imperdiet
                 facilisis vel
-                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum venenatis
+                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum
+                venenatis
                 dictum,
                 quis sociis magnis proin massa justo platea feugiat blandit. Cursus suscipit nec tempor penatibus
                 convallis
@@ -168,7 +204,8 @@
                 sociosqu
                 placerat platea.
 
-                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna dis
+                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna
+                dis
                 tempus
                 velit, elementum nunc eleifend consequat platea habitant erat hendrerit nullam justo est dictum
                 condimentum
@@ -176,22 +213,27 @@
                 inceptos
                 varius, torquent dictumst lobortis porta. Lacinia congue hendrerit volutpat rhoncus imperdiet rutrum
                 quam
-                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis viverra
+                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis
+                viverra
                 nisi
                 justo est arcu.</p>
         </div>
-        <div id="post-4">
+        <div class="post" id="post-4">
             <h3>Post Title</h3>
-            <img src="../Styles/profile-180.jpg">
-            <p>by User</p>
-            <p>fecha</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis fusce
+            <img id="userImage" src="../Styles/profile-180.jpg">
+            <p id="byUser">by User</p>
+            <p id="datePost">fecha</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis facilisi, dignissim aliquet ut mattis
+                fusce
                 proin
-                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum nullam
+                ullamcorper ultrices, condimentum volutpat in aenean sociis venenatis integer bibendum. Elementum
+                nullam
                 lacus
-                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius tempor
+                aptent cubilia quis sociosqu integer ante fames natoque proin inceptos bibendum, venenatis varius
+                tempor
                 blandit
-                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris lectus
+                mus sociis suscipit ridiculus potenti augue lectus. Magnis viverra cubilia mi diam lacus mauris
+                lectus
                 et auctor
                 bibendum, a mattis augue commodo eros pharetra aptent habitasse morbi sapien, sociis parturient
                 consequat cras
@@ -199,21 +241,26 @@
                 potenti
                 habitasse, dapibus interdum ligula viverra placerat.
 
-                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula non
+                Imperdiet lacus lobortis pulvinar bibendum sollicitudin est mi, hac sodales quisque blandit vehicula
+                non
                 dictumst, urna praesent congue semper justo aptent. Per varius luctus habitant vitae cursus odio
                 bibendum
-                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum ante
+                facilisis tempus, platea fermentum sed potenti mauris sagittis imperdiet nibh leo, iaculis rutrum
+                ante
                 duis
-                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula taciti, et
+                sollicitudin velit tempor in. Etiam cubilia semper aptent congue condimentum laoreet vehicula
+                taciti, et
                 arcu
                 ridiculus ad habitasse ultricies sollicitudin a blandit, commodo cum pretium penatibus velit netus
                 platea.
 
-                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin leo,
+                Lobortis aliquam nibh netus conubia lectus ultricies convallis dapibus nulla integer sollicitudin
+                leo,
                 viverra
                 duis habitant in dui ullamcorper auctor litora luctus tristique. Ullamcorper ac ante est imperdiet
                 facilisis vel
-                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum venenatis
+                rhoncus odio laoreet euismod, parturient pulvinar tincidunt aliquet congue vulputate bibendum
+                venenatis
                 dictum,
                 quis sociis magnis proin massa justo platea feugiat blandit. Cursus suscipit nec tempor penatibus
                 convallis
@@ -221,7 +268,8 @@
                 sociosqu
                 placerat platea.
 
-                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna dis
+                Tellus id conubia cursus dui augue vivamus vulputate et ridiculus ligula rhoncus libero natoque urna
+                dis
                 tempus
                 velit, elementum nunc eleifend consequat platea habitant erat hendrerit nullam justo est dictum
                 condimentum
@@ -229,11 +277,15 @@
                 inceptos
                 varius, torquent dictumst lobortis porta. Lacinia congue hendrerit volutpat rhoncus imperdiet rutrum
                 quam
-                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis viverra
+                inceptos ultrices eu fames eros sollicitudin, auctor sagittis euismod tellus ultricies venenatis
+                viverra
                 nisi
                 justo est arcu.</p>
         </div>
     </main>
+    <footer>
+        <p>Mario Moya Antón</p>
+    </footer>
 </body>
 
 </html>
