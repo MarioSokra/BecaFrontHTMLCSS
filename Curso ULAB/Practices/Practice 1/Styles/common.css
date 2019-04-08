@@ -58,6 +58,12 @@ main {
   background-color: lightgreen;
   border: 2px solid rebeccapurple;
 }
+main form{
+  padding-left:10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  padding-top:2%;
+}
 footer{
   background-color:seagreen;
   padding: 1%;
@@ -91,9 +97,7 @@ footer{
 #datePost{
   color: gray;
 }
-#loginForm{
-  align-content: center
-}
+
 @media (max-width:768px){
   
 
