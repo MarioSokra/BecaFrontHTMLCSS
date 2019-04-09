@@ -11,5 +11,5 @@
     document.write(a);
     a.shift();
 
-    document.write("pop");
+    document.write("shift");
     document.write(a);
