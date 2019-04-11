@@ -58,16 +58,47 @@
 
 			function validar()
 			{
+                
+                let titulo=miFormulario.titulo.value;
+                let numero=miFormulario.numero.value;
+                if(/\s+$/.test(numero) || numero=="" || numero.length==0){
+                    
+                    miFormulario.numero.style.backgroundColor = "red";
+                    return false;
+                }
 
+                if(!/^[A-Z]{5,20}$/.test(titulo)){
+                    miFormulario.titulo.style.backgroundColor = "red";
+                    alert("El título debe ser letra A a Z y de 5 a 20 caracteres");
+                    
+                    
+                    return false;
+                }
 
-				
+                if(!/^([1-9]|10)$/.test(numero)){
+                    miFormulario.numero.style.backgroundColor = "red";
+                    alert("El numero debe estar entre 1 y 10");
+                    
+                    
+                    return false;
+                }
+
+                miFormulario.btn_lanzar.style.display="block";
+                miFormulario.btn_lanzar.onclick=lanzar;
+                miFormulario.numero.style.backgroundColor="White";
+                miFormulario.title.style.backgroundColor="White";
+				miFormulario.titulo.disabled=true;
+                miFormulario.numero.disabled=true;
 				
 			}
 			
 			
             window.onload = function() {
-                miFormulario.btn_lanzar.style.display="block";
-                miFormulario.btn_lanzar.onclick=lanzar;
-
+                // miFormulario.btn_lanzar.style.display="block";
+                // miFormulario.btn_lanzar.onclick=lanzar;
+                let titulo=miFormulario.titulo;
+                let numero=miFormulario.numero;
+                titulo.onblur=validar;
+                numero.onblur=validar;
 				
 			};
