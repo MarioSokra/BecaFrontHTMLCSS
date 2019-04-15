@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RECU</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+
+<body>
+    <h2>SERIES Y CAPITULOS</h2>
+    <form name="miFormulario" class="elegante">
+        <fieldset>
+            <legend>Datos a Introducir</legend>
+            <div>
+                <label for="título">Indica Título de Serie</label>
+                <input type="text" name="titulo" id="titulo">
+                <br>
+                <br>
+                <br>
+                <label for="numero">Indica número de capitulos</label>
+                <input type="text" name="numero" id="numero">
+                <br>
+                <br>
+                <br>
+                <label for="modo">Elige un método:</label>
+                <select name="metodo" id="metodo">
+                    <option name="none" value=""></option>
+                    <option name="Ordenada" value="lista">Lista Ordenada</option>
+                    <option name="Tabla" value="tabla">Tabla</option>
+                </select>
+            </div>
+            <input style="display:inline" name="btn_guardar" class="btn" type="button" value="GUARDAR">
+        
+        </fieldset>
+
+        <fieldset>
+				<legend>Respuesta</legend>
+				<div id="respuesta">
+				</div>
+			</fieldset>	
+    </form>
+    <script src="formClases.js"></script>
+</body>
+
+</html>
