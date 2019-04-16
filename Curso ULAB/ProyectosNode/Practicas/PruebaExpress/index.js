@@ -44,4 +44,41 @@ nuevoLibro(req.body.id, req.body.titulo, req.body.autor, req.body,precio).then(r
     
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
